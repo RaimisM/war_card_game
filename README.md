@@ -1,2 +1,2 @@
-# war_card_game
-Code for card game called War
+War - A Children’s Card Game
+This project implements the classic children’s card game War using the Object-Oriented Programming (OOP) paradigm. 
