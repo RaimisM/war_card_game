@@ -1,28 +1,39 @@
 import random
 
-def main():
-    ...
+class Card:
+    def __init__(self, ):
+    
+    def __str__(self):
+     
 
-def create_deck():
-    suits = ['Hearts', 'Diamonds', 'Clubs', 'Spades']
-    ranks = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King', 'Ace']
-    deck = [(rank, suit) for suit in suits for rank in ranks]
-    return deck
+class Deck:
+    def __init__(self):
+     
+    def create_deck(self):
 
-def shuffle_deck(deck):
-    random.shuffle(deck)
-    return deck
+    def shuffle(self):
 
-def player_one():
-    ...
+    def deal(self):
 
-def winning_move():
-    ...
+class Player:
+    def __init__(self, ):
+
+    def play(self):
+    
+class Game:
+    def __init__():
+
+
+    def play_round(self):
+  
+    def war(self):
+       
+    def find_winner(self):
+
+
+    def play_game(self):
+
 
 if __name__ == "__main__":
-    main()
 
-# Example usage
-deck = create_deck()
-shuffled_deck = shuffle_deck(deck)
-print(shuffled_deck)
+
