@@ -1,26 +1,48 @@
-War - A Children’s Card Game
-This project implements the classic children’s card game War using the Object-Oriented Programming (OOP) paradigm. 
+# War - A Children’s Card Game
+
+This project implements the classic children’s card game **War** using the Object-Oriented Programming (OOP) paradigm.
+
+---
+
+## Features
+
+- Fully object-oriented implementation for clarity and scalability.
+- Simulates the gameplay mechanics, including card drawing, tiebreaker handling, and winner determination.
+- Randomized deck shuffling for dynamic gameplay.
+
+---
+
+## How It Works
+
+### 1. Setup
+- **Deck Initialization**: A deck of 52 cards is created (13 ranks × 4 suits).
+- **Shuffle**: The deck is shuffled to ensure random card order.
+- **Card Distribution**: The deck is split into two equal piles for Player 1 and Player 2.
+
+---
+
+### 2. Gameplay
+- Each turn follows this sequence:
+  1. Both players draw the top card from their stack.
+  2. The values of the two cards are compared.
+  3. The winner of the turn adds both cards to the bottom of their deck.
+
+---
+
+### 3. Tiebreaker Rules
+If the drawn cards have the same value:
+1. Each player places three additional cards face-down.
+2. A fourth card is drawn by both players to determine the winner.
+3. If the fourth cards are also tied, repeat the process until a winner is determined.
+4. The winner collects all cards in play and adds them to their pile.
+
+---
+
+### 4. Determining the Winner
+- A player loses when their stack is empty.
+- A check is performed to ensure total card ownership to declare a winner.
+- The game ends with a congratulatory message for the winner.
+
+---
 
 
-1. Set up:
-    a) Create a function to initialize a deck of cards (52 cards: 13 ranks × 4 suits).
-    b) Write a shuffle function to randomize the deck.
-    c) Split the deck into two equal piles for Player 1 and Player 2.
-
-2. Gameplay:
-    a) Implement a loop for the turn structure:
-    b) Each player draws the top card from their stack.
-    c) Compare the values of the two drawn cards.
-    d) Add both cards to the winner's pile (bottom of their deck).
-
-3. Tiebreake solution:
-    Check if drawn cards are of equal value:
-        a) Place three additional cards face-down.
-        b) Draw a fourth card to compare values.
-        c) Repeat this process if the tiebreaker cards are also tied.
-        d) Add all cards in play to the winner's pile.
-
-4. Find winner:
-    a) Check if one player’s stack is empty (loses the game).
-    b) Implement a check for total card ownership to declare a winner.
-    c) Write congratulation message
